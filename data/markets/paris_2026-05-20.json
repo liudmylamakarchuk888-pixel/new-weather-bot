@@ -1,0 +1,211 @@
+{
+  "city": "paris",
+  "city_name": "Paris",
+  "date": "2026-05-20",
+  "unit": "C",
+  "station": "LFPG",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.1,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T13:55:21.180096+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf_raw": 18.5,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 18.5,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": null,
+      "us_short_bias": 0.0,
+      "us_short": null,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 18.5,
+      "best_bias": 0.0,
+      "best": 18.5,
+      "best_source": "ecmwf",
+      "gfs_raw": null,
+      "gfs_bias": 0.0,
+      "gfs": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T13:55:21.180096+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_bid": 0.25,
+      "top_ask": 0.39,
+      "top_price": 0.25
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Paris be 15°C or below on May 20?",
+      "market_id": "2289572",
+      "gamma_market_id": "2289572",
+      "yes_token_id": "34821349882129927752824652417865748050876446061738398830716400867550843984384",
+      "range": [
+        -999.0,
+        15.0
+      ],
+      "bid": 0.002,
+      "ask": 0.02,
+      "price": 0.002,
+      "spread": 0.018,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Paris be 16°C on May 20?",
+      "market_id": "2289573",
+      "gamma_market_id": "2289573",
+      "yes_token_id": "36570180639486774778154598158679699335696459906216272209806211067521930371694",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.01,
+      "ask": 0.03,
+      "price": 0.01,
+      "spread": 0.02,
+      "volume": 11.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Paris be 17°C on May 20?",
+      "market_id": "2289574",
+      "gamma_market_id": "2289574",
+      "yes_token_id": "30335845574058738421116277803192017427440004950998936808414173760197798478171",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.01,
+      "ask": 0.11,
+      "price": 0.01,
+      "spread": 0.1,
+      "volume": 2.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Paris be 18°C on May 20?",
+      "market_id": "2289575",
+      "gamma_market_id": "2289575",
+      "yes_token_id": "87811072442426290247396046472475603677965897875951289388923523910832103600228",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.01,
+      "ask": 0.07,
+      "price": 0.01,
+      "spread": 0.06,
+      "volume": 2.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Paris be 19°C on May 20?",
+      "market_id": "2289576",
+      "gamma_market_id": "2289576",
+      "yes_token_id": "99102984978221742321875282543191560511762453213213447982721133554617081896256",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.02,
+      "ask": 0.35,
+      "price": 0.02,
+      "spread": 0.33,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Paris be 20°C on May 20?",
+      "market_id": "2289577",
+      "gamma_market_id": "2289577",
+      "yes_token_id": "59629157944411204169188704286888759493548486357394483506151427702756503644810",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.12,
+      "ask": 0.39,
+      "price": 0.12,
+      "spread": 0.27,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Paris be 21°C on May 20?",
+      "market_id": "2289578",
+      "gamma_market_id": "2289578",
+      "yes_token_id": "25157141448537471899577281741246404903083712789349720682028782330122600866945",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.25,
+      "ask": 0.39,
+      "price": 0.25,
+      "spread": 0.14,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Paris be 22°C on May 20?",
+      "market_id": "2289579",
+      "gamma_market_id": "2289579",
+      "yes_token_id": "111596476971787970844807718113017144831006515650499802823255136122611451571342",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.06,
+      "ask": 0.34,
+      "price": 0.06,
+      "spread": 0.28,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Paris be 23°C on May 20?",
+      "market_id": "2289580",
+      "gamma_market_id": "2289580",
+      "yes_token_id": "12642011919903843562228435577380144179654226732300272527609847297613045789313",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.01,
+      "ask": 0.28,
+      "price": 0.01,
+      "spread": 0.27,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Paris be 24°C on May 20?",
+      "market_id": "2289581",
+      "gamma_market_id": "2289581",
+      "yes_token_id": "86142131934879326124372796356489405724425837368191479215465613347910309746013",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.002,
+      "ask": 0.04,
+      "price": 0.002,
+      "spread": 0.038,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    }
+  ],
+  "created_at": "2026-05-18T13:55:31.035380+00:00"
+}

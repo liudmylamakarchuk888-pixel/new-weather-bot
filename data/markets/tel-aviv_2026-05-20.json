@@ -1,0 +1,227 @@
+{
+  "city": "tel-aviv",
+  "city_name": "Tel Aviv",
+  "date": "2026-05-20",
+  "unit": "C",
+  "station": "LLBG",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.0,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T13:59:44.781052+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.0,
+      "ecmwf_raw": 25.4,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 25.4,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": null,
+      "us_short_bias": 0.0,
+      "us_short": null,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 25.4,
+      "best_bias": 0.0,
+      "best": 25.4,
+      "best_source": "ecmwf",
+      "gfs_raw": null,
+      "gfs_bias": 0.0,
+      "gfs": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T13:59:44.781052+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_bid": 0.05,
+      "top_ask": 0.38,
+      "top_price": 0.05
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tel Aviv be 22°C or below on May 20?",
+      "market_id": "2289737",
+      "gamma_market_id": "2289737",
+      "yes_token_id": "59523261815848258737986095462170057116403862881207309486505052192756070997506",
+      "range": [
+        -999.0,
+        22.0
+      ],
+      "bid": 0.001,
+      "ask": 0.019,
+      "price": 0.001,
+      "spread": 0.018,
+      "volume": 96.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 23°C on May 20?",
+      "market_id": "2289738",
+      "gamma_market_id": "2289738",
+      "yes_token_id": "91234008328559125873924218799047205993653521522357416954753368041151246812999",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.01,
+      "ask": 0.13,
+      "price": 0.01,
+      "spread": 0.12,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 24°C on May 20?",
+      "market_id": "2289739",
+      "gamma_market_id": "2289739",
+      "yes_token_id": "56274740068259102495381849645196247890548770247581475005231064436665677413964",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.01,
+      "ask": 0.21,
+      "price": 0.01,
+      "spread": 0.2,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 25°C on May 20?",
+      "market_id": "2289740",
+      "gamma_market_id": "2289740",
+      "yes_token_id": "84004613548758090731131458838452659537798448825732145871105839733923395251560",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.05,
+      "ask": 0.38,
+      "price": 0.05,
+      "spread": 0.33,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 26°C on May 20?",
+      "market_id": "2289741",
+      "gamma_market_id": "2289741",
+      "yes_token_id": "104275048143238435786521664411011844729354790217083027045214051032412518680317",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.05,
+      "ask": 0.39,
+      "price": 0.05,
+      "spread": 0.34,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 27°C on May 20?",
+      "market_id": "2289742",
+      "gamma_market_id": "2289742",
+      "yes_token_id": "26995819853980330605932285779761226899293903234530508410598871094538912737645",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.05,
+      "ask": 0.39,
+      "price": 0.05,
+      "spread": 0.34,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 28°C on May 20?",
+      "market_id": "2289743",
+      "gamma_market_id": "2289743",
+      "yes_token_id": "11438929339408044092097542907111471525254519794533761917865308821753134746078",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.01,
+      "ask": 0.28,
+      "price": 0.01,
+      "spread": 0.27,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 29°C on May 20?",
+      "market_id": "2289744",
+      "gamma_market_id": "2289744",
+      "yes_token_id": "43412276442097524686308439932459855104291216176985252361005076400908325458694",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.05,
+      "ask": 0.07,
+      "price": 0.05,
+      "spread": 0.02,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 30°C on May 20?",
+      "market_id": "2289745",
+      "gamma_market_id": "2289745",
+      "yes_token_id": "70804615843846440292516354443068477196271778303661311638564987873501856225415",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.002,
+      "ask": 0.01,
+      "price": 0.002,
+      "spread": 0.008,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 31°C on May 20?",
+      "market_id": "2289746",
+      "gamma_market_id": "2289746",
+      "yes_token_id": "23976153708869417420960862530385774270343790111136106079529518740313232730730",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.002,
+      "ask": 0.03,
+      "price": 0.002,
+      "spread": 0.028,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 32°C or higher on May 20?",
+      "market_id": "2289747",
+      "gamma_market_id": "2289747",
+      "yes_token_id": "83729112344622253040110254443550924875049045052130710020574386643456145185025",
+      "range": [
+        32.0,
+        999.0
+      ],
+      "bid": 0.002,
+      "ask": 0.02,
+      "price": 0.002,
+      "spread": 0.018,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    }
+  ],
+  "created_at": "2026-05-18T13:59:55.151393+00:00"
+}

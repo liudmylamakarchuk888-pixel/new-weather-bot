@@ -1,0 +1,227 @@
+{
+  "city": "hong-kong",
+  "city_name": "Hong Kong",
+  "date": "2026-05-20",
+  "unit": "C",
+  "station": "VHHH",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.0,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T13:57:59.614932+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.0,
+      "ecmwf_raw": 28.1,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 28.1,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": null,
+      "us_short_bias": 0.0,
+      "us_short": null,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 28.1,
+      "best_bias": 0.0,
+      "best": 28.1,
+      "best_source": "ecmwf",
+      "gfs_raw": null,
+      "gfs_bias": 0.0,
+      "gfs": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T13:57:59.614932+00:00",
+      "top_bucket": "30.0-999.0C",
+      "top_bid": 0.24,
+      "top_ask": 0.39,
+      "top_price": 0.24
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Hong Kong be 20°C or below on May 20?",
+      "market_id": "2289759",
+      "gamma_market_id": "2289759",
+      "yes_token_id": "17223884105680526487301229858455728127108387598744840413540044861970010619651",
+      "range": [
+        -999.0,
+        20.0
+      ],
+      "bid": 0.002,
+      "ask": 0.01,
+      "price": 0.002,
+      "spread": 0.008,
+      "volume": 10.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Hong Kong be 21°C on May 20?",
+      "market_id": "2289760",
+      "gamma_market_id": "2289760",
+      "yes_token_id": "58229533514983552162959612828033187699017709510818306375791141274691506073130",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.002,
+      "ask": 0.07,
+      "price": 0.002,
+      "spread": 0.068,
+      "volume": 10.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Hong Kong be 22°C on May 20?",
+      "market_id": "2289761",
+      "gamma_market_id": "2289761",
+      "yes_token_id": "16808158554304734155814114811589870319117855500163295880578749796677072765772",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.002,
+      "ask": 0.07,
+      "price": 0.002,
+      "spread": 0.068,
+      "volume": 10.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Hong Kong be 23°C on May 20?",
+      "market_id": "2289762",
+      "gamma_market_id": "2289762",
+      "yes_token_id": "27432133665914132157827919843577317143952274092462482062272175265397214980414",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.002,
+      "ask": 0.069,
+      "price": 0.002,
+      "spread": 0.067,
+      "volume": 10.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Hong Kong be 24°C on May 20?",
+      "market_id": "2289763",
+      "gamma_market_id": "2289763",
+      "yes_token_id": "101410374692020060367701220144430921676397717827090831232963735953734270399795",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.01,
+      "ask": 0.099,
+      "price": 0.01,
+      "spread": 0.089,
+      "volume": 10.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Hong Kong be 25°C on May 20?",
+      "market_id": "2289764",
+      "gamma_market_id": "2289764",
+      "yes_token_id": "36267719292518809174334991738161947062088624181409639274381221952241000044661",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.01,
+      "ask": 0.099,
+      "price": 0.01,
+      "spread": 0.089,
+      "volume": 25.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Hong Kong be 26°C on May 20?",
+      "market_id": "2289765",
+      "gamma_market_id": "2289765",
+      "yes_token_id": "34724855431084899276993636083087505483579951038261889386660103599674059745255",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.12,
+      "ask": 0.15,
+      "price": 0.12,
+      "spread": 0.03,
+      "volume": 5.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Hong Kong be 27°C on May 20?",
+      "market_id": "2289766",
+      "gamma_market_id": "2289766",
+      "yes_token_id": "52427401624233485781547742328919438322801442756200580004959899672793648715453",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.02,
+      "ask": 0.19,
+      "price": 0.02,
+      "spread": 0.17,
+      "volume": 5.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Hong Kong be 28°C on May 20?",
+      "market_id": "2289767",
+      "gamma_market_id": "2289767",
+      "yes_token_id": "62237138595453600722571021113086933211587512424180501882342091750470609228626",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.15,
+      "ask": 0.39,
+      "price": 0.15,
+      "spread": 0.24,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Hong Kong be 29°C on May 20?",
+      "market_id": "2289768",
+      "gamma_market_id": "2289768",
+      "yes_token_id": "86742887453410562469012496077617282971621102170087174944300448241181273725953",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.13,
+      "ask": 0.39,
+      "price": 0.13,
+      "spread": 0.26,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Hong Kong be 30°C or higher on May 20?",
+      "market_id": "2289769",
+      "gamma_market_id": "2289769",
+      "yes_token_id": "10483252582046362716743572631826923447971896699466575311552889764606016104129",
+      "range": [
+        30.0,
+        999.0
+      ],
+      "bid": 0.24,
+      "ask": 0.39,
+      "price": 0.24,
+      "spread": 0.15,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    }
+  ],
+  "created_at": "2026-05-18T13:58:09.613474+00:00"
+}

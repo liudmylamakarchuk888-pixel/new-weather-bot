@@ -1,0 +1,227 @@
+{
+  "city": "ankara",
+  "city_name": "Ankara",
+  "date": "2026-05-20",
+  "unit": "C",
+  "station": "LTAC",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.1,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T13:56:24.538050+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf_raw": 17.6,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 17.6,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": null,
+      "us_short_bias": 0.0,
+      "us_short": null,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 17.6,
+      "best_bias": 0.0,
+      "best": 17.6,
+      "best_source": "ecmwf",
+      "gfs_raw": null,
+      "gfs_bias": 0.0,
+      "gfs": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T13:56:24.538050+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_bid": 0.24,
+      "top_ask": 0.29,
+      "top_price": 0.24
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Ankara be 13°C or below on May 20?",
+      "market_id": "2289693",
+      "gamma_market_id": "2289693",
+      "yes_token_id": "63518878584392985141839385022757253264978524326701424116517779008842551022122",
+      "range": [
+        -999.0,
+        13.0
+      ],
+      "bid": 0.002,
+      "ask": 0.009,
+      "price": 0.002,
+      "spread": 0.007,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 14°C on May 20?",
+      "market_id": "2289694",
+      "gamma_market_id": "2289694",
+      "yes_token_id": "99094360016008193854221512151224714646377940143994801271683463189617937384057",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "bid": 0.01,
+      "ask": 0.02,
+      "price": 0.01,
+      "spread": 0.01,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 15°C on May 20?",
+      "market_id": "2289695",
+      "gamma_market_id": "2289695",
+      "yes_token_id": "22119645530026881482811626466189682213270316567244912202723563719026559560504",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "bid": 0.04,
+      "ask": 0.05,
+      "price": 0.04,
+      "spread": 0.01,
+      "volume": 18.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 16°C on May 20?",
+      "market_id": "2289696",
+      "gamma_market_id": "2289696",
+      "yes_token_id": "10313423411437693850982203903673562789213278836917058250972987978633499074743",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.05,
+      "ask": 0.17,
+      "price": 0.05,
+      "spread": 0.12,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 17°C on May 20?",
+      "market_id": "2289697",
+      "gamma_market_id": "2289697",
+      "yes_token_id": "19149768708919402097176182595226176851412714281394418277774838365270088413643",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.06,
+      "ask": 0.21,
+      "price": 0.06,
+      "spread": 0.15,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 18°C on May 20?",
+      "market_id": "2289698",
+      "gamma_market_id": "2289698",
+      "yes_token_id": "106771647358314490746686728847320449510395790434871797216809588177099300039177",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.24,
+      "ask": 0.29,
+      "price": 0.24,
+      "spread": 0.05,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 19°C on May 20?",
+      "market_id": "2289699",
+      "gamma_market_id": "2289699",
+      "yes_token_id": "38486023603289211852806849547941541259602158002819752839096298092381667149273",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.13,
+      "ask": 0.26,
+      "price": 0.13,
+      "spread": 0.13,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 20°C on May 20?",
+      "market_id": "2289700",
+      "gamma_market_id": "2289700",
+      "yes_token_id": "59802184281364802040881607462080704174973477584410389047268486263044647950244",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.12,
+      "ask": 0.2,
+      "price": 0.12,
+      "spread": 0.08,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 21°C on May 20?",
+      "market_id": "2289701",
+      "gamma_market_id": "2289701",
+      "yes_token_id": "91200923160895738814776191825528654892367306332280133483448556284196440457856",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.02,
+      "ask": 0.04,
+      "price": 0.02,
+      "spread": 0.02,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 22°C on May 20?",
+      "market_id": "2289702",
+      "gamma_market_id": "2289702",
+      "yes_token_id": "54349660556611386107604151979576025024171176714547828002527324397765714099626",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.011,
+      "ask": 0.04,
+      "price": 0.011,
+      "spread": 0.029,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 23°C or higher on May 20?",
+      "market_id": "2289703",
+      "gamma_market_id": "2289703",
+      "yes_token_id": "49459915113971565615452948397099123954669278496313640093424999941148590573276",
+      "range": [
+        23.0,
+        999.0
+      ],
+      "bid": 0.01,
+      "ask": 0.05,
+      "price": 0.01,
+      "spread": 0.04,
+      "volume": 5.0,
+      "quote_source": "gamma_best_bid_ask"
+    }
+  ],
+  "created_at": "2026-05-18T13:56:34.836727+00:00"
+}

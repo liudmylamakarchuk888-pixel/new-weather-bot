@@ -1,0 +1,227 @@
+{
+  "city": "sao-paulo",
+  "city_name": "Sao Paulo",
+  "date": "2026-05-20",
+  "unit": "C",
+  "station": "SBGR",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.0,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T14:00:48.291023+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.0,
+      "ecmwf_raw": 21.2,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 21.2,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": null,
+      "us_short_bias": 0.0,
+      "us_short": null,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 21.2,
+      "best_bias": 0.0,
+      "best": 21.2,
+      "best_source": "ecmwf",
+      "gfs_raw": null,
+      "gfs_bias": 0.0,
+      "gfs": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T14:00:48.291023+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_bid": 0.25,
+      "top_ask": 0.33,
+      "top_price": 0.25
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Sao Paulo be 16°C or below on May 20?",
+      "market_id": "2289583",
+      "gamma_market_id": "2289583",
+      "yes_token_id": "4113177092281642153288229719183260785026221482686337342195779367918321836376",
+      "range": [
+        -999.0,
+        16.0
+      ],
+      "bid": 0.003,
+      "ask": 0.05,
+      "price": 0.003,
+      "spread": 0.047,
+      "volume": 42.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 17°C on May 20?",
+      "market_id": "2289584",
+      "gamma_market_id": "2289584",
+      "yes_token_id": "50266228470419579795685422826673206669948073856090904909812957824332071081448",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.1,
+      "ask": 0.12,
+      "price": 0.1,
+      "spread": 0.02,
+      "volume": 64.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 18°C on May 20?",
+      "market_id": "2289585",
+      "gamma_market_id": "2289585",
+      "yes_token_id": "18724781469454368256333587578380433682135815493679597177687037709808137332653",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.12,
+      "ask": 0.146,
+      "price": 0.12,
+      "spread": 0.026,
+      "volume": 34.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 19°C on May 20?",
+      "market_id": "2289586",
+      "gamma_market_id": "2289586",
+      "yes_token_id": "58535123783269976762412822010471389291822711242176910070470614068682296635122",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.12,
+      "ask": 0.15,
+      "price": 0.12,
+      "spread": 0.03,
+      "volume": 42.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 20°C on May 20?",
+      "market_id": "2289587",
+      "gamma_market_id": "2289587",
+      "yes_token_id": "23629170937130267378882886595729344937943217275798864120791112504699551299427",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.08,
+      "ask": 0.2,
+      "price": 0.08,
+      "spread": 0.12,
+      "volume": 12.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 21°C on May 20?",
+      "market_id": "2289588",
+      "gamma_market_id": "2289588",
+      "yes_token_id": "22025130649052365787520210442998809546911212438580784781057374692549010688228",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.25,
+      "ask": 0.33,
+      "price": 0.25,
+      "spread": 0.08,
+      "volume": 16.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 22°C on May 20?",
+      "market_id": "2289589",
+      "gamma_market_id": "2289589",
+      "yes_token_id": "92844310375989581837438617193900074066984291968609856309966990162805684600450",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.06,
+      "ask": 0.38,
+      "price": 0.06,
+      "spread": 0.32,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 23°C on May 20?",
+      "market_id": "2289590",
+      "gamma_market_id": "2289590",
+      "yes_token_id": "38646215868635966814624383355439670199143740809692525809675319949416900042046",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.02,
+      "ask": 0.09,
+      "price": 0.02,
+      "spread": 0.07,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 24°C on May 20?",
+      "market_id": "2289591",
+      "gamma_market_id": "2289591",
+      "yes_token_id": "37799225321113718328377706024083334938520742240222719121985022848480705410642",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.01,
+      "ask": 0.04,
+      "price": 0.01,
+      "spread": 0.03,
+      "volume": 5.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 25°C on May 20?",
+      "market_id": "2289592",
+      "gamma_market_id": "2289592",
+      "yes_token_id": "101663150432789980385511410804247419298138886620066851374150537051636743906401",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.002,
+      "ask": 0.01,
+      "price": 0.002,
+      "spread": 0.008,
+      "volume": 15.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 26°C or higher on May 20?",
+      "market_id": "2289593",
+      "gamma_market_id": "2289593",
+      "yes_token_id": "56723135340266111720502685149495074047689254531022127614219185241158335808683",
+      "range": [
+        26.0,
+        999.0
+      ],
+      "bid": 0.005,
+      "ask": 0.017,
+      "price": 0.005,
+      "spread": 0.012,
+      "volume": 310.0,
+      "quote_source": "gamma_best_bid_ask"
+    }
+  ],
+  "created_at": "2026-05-18T14:00:58.540753+00:00"
+}

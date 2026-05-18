@@ -1,0 +1,227 @@
+{
+  "city": "atlanta",
+  "city_name": "Atlanta",
+  "date": "2026-05-20",
+  "unit": "F",
+  "station": "KATL",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.1,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T13:54:16.253368+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf_raw": 89,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 89,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": 92,
+      "us_short_bias": 0.0,
+      "us_short": 92,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 92,
+      "best_bias": 0.0,
+      "best": 92,
+      "best_source": "gfs",
+      "gfs_raw": 92,
+      "gfs_bias": 0.0,
+      "gfs": 92
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T13:54:16.253368+00:00",
+      "top_bucket": "86.0-87.0F",
+      "top_bid": 0.05,
+      "top_ask": 0.38,
+      "top_price": 0.05
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Atlanta be 83°F or below on May 20?",
+      "market_id": "2289660",
+      "gamma_market_id": "2289660",
+      "yes_token_id": "107326336927301318804025606457952961111929484103734689731249459424565508850128",
+      "range": [
+        -999.0,
+        83.0
+      ],
+      "bid": 0.02,
+      "ask": 0.07,
+      "price": 0.02,
+      "spread": 0.05,
+      "volume": 2.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 84-85°F on May 20?",
+      "market_id": "2289661",
+      "gamma_market_id": "2289661",
+      "yes_token_id": "294282204577325718940033644329038448594572170958450428391908356738708675028",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.02,
+      "ask": 0.32,
+      "price": 0.02,
+      "spread": 0.3,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 86-87°F on May 20?",
+      "market_id": "2289662",
+      "gamma_market_id": "2289662",
+      "yes_token_id": "57819154387499013291978581584670055660166972767546908132693070600403094350618",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.05,
+      "ask": 0.38,
+      "price": 0.05,
+      "spread": 0.33,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 88-89°F on May 20?",
+      "market_id": "2289663",
+      "gamma_market_id": "2289663",
+      "yes_token_id": "102323527587193200373028627679524231603603797712821130364991869422397404904082",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.05,
+      "ask": 0.36,
+      "price": 0.05,
+      "spread": 0.31,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 90-91°F on May 20?",
+      "market_id": "2289664",
+      "gamma_market_id": "2289664",
+      "yes_token_id": "81603711149771855979072358203929648813940267866019287580546374602006831536578",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.05,
+      "ask": 0.36,
+      "price": 0.05,
+      "spread": 0.31,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 92-93°F on May 20?",
+      "market_id": "2289665",
+      "gamma_market_id": "2289665",
+      "yes_token_id": "16899615350443624247808952329355615296535470007127616441514089372062163774549",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "bid": 0.01,
+      "ask": 0.36,
+      "price": 0.01,
+      "spread": 0.35,
+      "volume": 0.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 94-95°F on May 20?",
+      "market_id": "2289666",
+      "gamma_market_id": "2289666",
+      "yes_token_id": "78209246524147677380824182692158289685865337466116907338607848366135917366804",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "bid": 0.01,
+      "ask": 0.06,
+      "price": 0.01,
+      "spread": 0.05,
+      "volume": 2.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 96-97°F on May 20?",
+      "market_id": "2289667",
+      "gamma_market_id": "2289667",
+      "yes_token_id": "87860765179173864182899861326995238654561950582724344197646105511445380327778",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "bid": 0.01,
+      "ask": 0.06,
+      "price": 0.01,
+      "spread": 0.05,
+      "volume": 2.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 98-99°F on May 20?",
+      "market_id": "2289668",
+      "gamma_market_id": "2289668",
+      "yes_token_id": "16493543854891699307507005887626956332092225691363754327582462849764025829235",
+      "range": [
+        98.0,
+        99.0
+      ],
+      "bid": 0.01,
+      "ask": 0.06,
+      "price": 0.01,
+      "spread": 0.05,
+      "volume": 2.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 100-101°F on May 20?",
+      "market_id": "2289669",
+      "gamma_market_id": "2289669",
+      "yes_token_id": "43474235398694900788358025158744608126112813967177372541216832032212438802100",
+      "range": [
+        100.0,
+        101.0
+      ],
+      "bid": 0.002,
+      "ask": 0.01,
+      "price": 0.002,
+      "spread": 0.008,
+      "volume": 7.0,
+      "quote_source": "clob_orderbook"
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be 102°F or higher on May 20?",
+      "market_id": "2289670",
+      "gamma_market_id": "2289670",
+      "yes_token_id": "62313165091372934021998309645455656806665786428746990773790046380612333747926",
+      "range": [
+        102.0,
+        999.0
+      ],
+      "bid": 0.001,
+      "ask": 0.049,
+      "price": 0.001,
+      "spread": 0.048,
+      "volume": 8.0,
+      "quote_source": "clob_orderbook"
+    }
+  ],
+  "created_at": "2026-05-18T13:54:28.833338+00:00"
+}

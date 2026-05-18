@@ -1,0 +1,179 @@
+{
+  "city": "seoul",
+  "city_name": "Seoul",
+  "date": "2026-05-20",
+  "unit": "C",
+  "station": "RKSI",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.0,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T13:56:56.300031+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.0,
+      "ecmwf_raw": 21.3,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 21.3,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": null,
+      "us_short_bias": 0.0,
+      "us_short": null,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 21.3,
+      "best_bias": 0.0,
+      "best": 21.3,
+      "best_source": "ecmwf",
+      "gfs_raw": null,
+      "gfs_bias": 0.0,
+      "gfs": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T13:56:56.300031+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_bid": 0.24,
+      "top_ask": 0.36,
+      "top_price": 0.24
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seoul be 15°C or below on May 20?",
+      "market_id": "2289605",
+      "gamma_market_id": "2289605",
+      "yes_token_id": "97669181277613467113951401507653381286641435054420395558993597360934929221206",
+      "range": [
+        -999.0,
+        15.0
+      ],
+      "bid": 0.008,
+      "ask": 0.013,
+      "price": 0.008,
+      "spread": 0.005,
+      "volume": 43.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 16°C on May 20?",
+      "market_id": "2289606",
+      "gamma_market_id": "2289606",
+      "yes_token_id": "76594834534845660896862840301934813769887262669038065087179791926385514289049",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.008,
+      "ask": 0.013,
+      "price": 0.008,
+      "spread": 0.005,
+      "volume": 18.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 20°C on May 20?",
+      "market_id": "2289610",
+      "gamma_market_id": "2289610",
+      "yes_token_id": "61122261662298525372363195287640454424634571268288085128415003661387385651154",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.12,
+      "ask": 0.27,
+      "price": 0.12,
+      "spread": 0.15,
+      "volume": 8.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 21°C on May 20?",
+      "market_id": "2289611",
+      "gamma_market_id": "2289611",
+      "yes_token_id": "74143709271765560880744506793830011995158677821098230674333877742395347397229",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.12,
+      "ask": 0.27,
+      "price": 0.12,
+      "spread": 0.15,
+      "volume": 8.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 22°C on May 20?",
+      "market_id": "2289612",
+      "gamma_market_id": "2289612",
+      "yes_token_id": "109159719071581754123534407588556734818962180026640757658624721353470840382510",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.24,
+      "ask": 0.36,
+      "price": 0.24,
+      "spread": 0.12,
+      "volume": 8.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 23°C on May 20?",
+      "market_id": "2289613",
+      "gamma_market_id": "2289613",
+      "yes_token_id": "80681184218893024872555971533293896247205810110145214106002389996949205821534",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.07,
+      "ask": 0.28,
+      "price": 0.07,
+      "spread": 0.21,
+      "volume": 14.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 24°C on May 20?",
+      "market_id": "2289614",
+      "gamma_market_id": "2289614",
+      "yes_token_id": "77592916182380250773065797820169035571533653752427130550278830821916552535698",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.12,
+      "ask": 0.44,
+      "price": 0.12,
+      "spread": 0.32,
+      "volume": 68.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 25°C or higher on May 20?",
+      "market_id": "2289615",
+      "gamma_market_id": "2289615",
+      "yes_token_id": "65041605567703926138671236815771192650907365797002210969483461574715889724721",
+      "range": [
+        25.0,
+        999.0
+      ],
+      "bid": 0.15,
+      "ask": 0.48,
+      "price": 0.15,
+      "spread": 0.33,
+      "volume": 18.0,
+      "quote_source": "gamma_best_bid_ask"
+    }
+  ],
+  "created_at": "2026-05-18T13:57:06.515177+00:00"
+}

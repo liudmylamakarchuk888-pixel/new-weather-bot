@@ -1,0 +1,227 @@
+{
+  "city": "london",
+  "city_name": "London",
+  "date": "2026-05-20",
+  "unit": "C",
+  "station": "EGLC",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.1,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T13:54:49.853084+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf_raw": 19.5,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 19.5,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": null,
+      "us_short_bias": 0.0,
+      "us_short": null,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 19.5,
+      "best_bias": 0.0,
+      "best": 19.5,
+      "best_source": "ecmwf",
+      "gfs_raw": null,
+      "gfs_bias": 0.0,
+      "gfs": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T13:54:49.853084+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_bid": 0.26,
+      "top_ask": 0.39,
+      "top_price": 0.26
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in London be 15°C or below on May 20?",
+      "market_id": "2289561",
+      "gamma_market_id": "2289561",
+      "yes_token_id": "27125794017376746673819855336762838546082598462585261463568725541395091519094",
+      "range": [
+        -999.0,
+        15.0
+      ],
+      "bid": 0.001,
+      "ask": 0.02,
+      "price": 0.001,
+      "spread": 0.019,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in London be 16°C on May 20?",
+      "market_id": "2289562",
+      "gamma_market_id": "2289562",
+      "yes_token_id": "43142687249294244187542737359532069240675488321522886127723101908686250302775",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "bid": 0.01,
+      "ask": 0.2,
+      "price": 0.01,
+      "spread": 0.19,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in London be 17°C on May 20?",
+      "market_id": "2289563",
+      "gamma_market_id": "2289563",
+      "yes_token_id": "8414717271775978471424225742372866383880457553641284110114667415022115904873",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.01,
+      "ask": 0.27,
+      "price": 0.01,
+      "spread": 0.26,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in London be 18°C on May 20?",
+      "market_id": "2289564",
+      "gamma_market_id": "2289564",
+      "yes_token_id": "12707217098674627315783795164494363254671086035607425871914043994805137364696",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.01,
+      "ask": 0.33,
+      "price": 0.01,
+      "spread": 0.32,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in London be 19°C on May 20?",
+      "market_id": "2289565",
+      "gamma_market_id": "2289565",
+      "yes_token_id": "69105443709646177000175416414446073347693297730612813624629423839930272632478",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.13,
+      "ask": 0.38,
+      "price": 0.13,
+      "spread": 0.25,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in London be 20°C on May 20?",
+      "market_id": "2289566",
+      "gamma_market_id": "2289566",
+      "yes_token_id": "86358873825712887083135510134115807974782663032724633158277907145417895253370",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.26,
+      "ask": 0.39,
+      "price": 0.26,
+      "spread": 0.13,
+      "volume": 5.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in London be 21°C on May 20?",
+      "market_id": "2289567",
+      "gamma_market_id": "2289567",
+      "yes_token_id": "110267763082327847428250354432484367325673784585205236035011847242894523431719",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.06,
+      "ask": 0.36,
+      "price": 0.06,
+      "spread": 0.3,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in London be 22°C on May 20?",
+      "market_id": "2289568",
+      "gamma_market_id": "2289568",
+      "yes_token_id": "32842844732142046197814901653725196879049537595610374337192601557206630047506",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.01,
+      "ask": 0.32,
+      "price": 0.01,
+      "spread": 0.31,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in London be 23°C on May 20?",
+      "market_id": "2289569",
+      "gamma_market_id": "2289569",
+      "yes_token_id": "930342586102505696185437496943350801005200924449257198920048696563501168734",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.01,
+      "ask": 0.28,
+      "price": 0.01,
+      "spread": 0.27,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in London be 24°C on May 20?",
+      "market_id": "2289570",
+      "gamma_market_id": "2289570",
+      "yes_token_id": "11203332238906631652933195579068290637399412522201531324701088256429516149009",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.01,
+      "ask": 0.07,
+      "price": 0.01,
+      "spread": 0.06,
+      "volume": 5.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in London be 25°C or higher on May 20?",
+      "market_id": "2289571",
+      "gamma_market_id": "2289571",
+      "yes_token_id": "44365606978699620754966895488448751771930104034094322616827042937056229510715",
+      "range": [
+        25.0,
+        999.0
+      ],
+      "bid": 0.008,
+      "ask": 0.009,
+      "price": 0.008,
+      "spread": 0.001,
+      "volume": 15.0,
+      "quote_source": "gamma_best_bid_ask"
+    }
+  ],
+  "created_at": "2026-05-18T13:54:59.961834+00:00"
+}

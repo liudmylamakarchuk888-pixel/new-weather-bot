@@ -1,0 +1,227 @@
+{
+  "city": "dallas",
+  "city_name": "Dallas",
+  "date": "2026-05-20",
+  "unit": "F",
+  "station": "KDAL",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.1,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T13:53:06.563072+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf_raw": 83,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 83,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": null,
+      "us_short_bias": 0.0,
+      "us_short": null,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 83,
+      "best_bias": 0.0,
+      "best": 83,
+      "best_source": "ecmwf",
+      "gfs_raw": null,
+      "gfs_bias": 0.0,
+      "gfs": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T13:53:06.563072+00:00",
+      "top_bucket": "76.0-77.0F",
+      "top_bid": 0.05,
+      "top_ask": 0.46,
+      "top_price": 0.05
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Dallas be 73°F or below on May 20?",
+      "market_id": "2289649",
+      "gamma_market_id": "2289649",
+      "yes_token_id": "58841098442152294829476128535995472029440268937258911437185759781296325903919",
+      "range": [
+        -999.0,
+        73.0
+      ],
+      "bid": 0.02,
+      "ask": 0.05,
+      "price": 0.02,
+      "spread": 0.03,
+      "volume": 27.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 74-75°F on May 20?",
+      "market_id": "2289650",
+      "gamma_market_id": "2289650",
+      "yes_token_id": "96290188938123728232210563104301464690639732846654428928116466938081073495827",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.02,
+      "ask": 0.48,
+      "price": 0.02,
+      "spread": 0.46,
+      "volume": 21.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 76-77°F on May 20?",
+      "market_id": "2289651",
+      "gamma_market_id": "2289651",
+      "yes_token_id": "9596974720005137514851063613639282760243357465824955698701872126294200009490",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.05,
+      "ask": 0.46,
+      "price": 0.05,
+      "spread": 0.41,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 78-79°F on May 20?",
+      "market_id": "2289652",
+      "gamma_market_id": "2289652",
+      "yes_token_id": "109878897254138072720056524433217046794078338478227422885421604521311766859093",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.05,
+      "ask": 0.45,
+      "price": 0.05,
+      "spread": 0.4,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 80-81°F on May 20?",
+      "market_id": "2289653",
+      "gamma_market_id": "2289653",
+      "yes_token_id": "115069115467027084767010575166698656699316853595438794899642985055143946257113",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.05,
+      "ask": 0.46,
+      "price": 0.05,
+      "spread": 0.41,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 82-83°F on May 20?",
+      "market_id": "2289654",
+      "gamma_market_id": "2289654",
+      "yes_token_id": "24131257121983338255450622490308856679220675167099685609877298979360558178492",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.01,
+      "ask": 0.45,
+      "price": 0.01,
+      "spread": 0.44,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 84-85°F on May 20?",
+      "market_id": "2289655",
+      "gamma_market_id": "2289655",
+      "yes_token_id": "24680674409993159256899273369374349888185911575702340531476303679970686897372",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.01,
+      "ask": 0.21,
+      "price": 0.01,
+      "spread": 0.2,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 86-87°F on May 20?",
+      "market_id": "2289656",
+      "gamma_market_id": "2289656",
+      "yes_token_id": "94572352825488947423837535386410862902116786514174510398167678267191500275187",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.01,
+      "ask": 0.07,
+      "price": 0.01,
+      "spread": 0.06,
+      "volume": 2.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 88-89°F on May 20?",
+      "market_id": "2289657",
+      "gamma_market_id": "2289657",
+      "yes_token_id": "74953295269320965342012866450044351242938320827776710418591978563900475748821",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.01,
+      "ask": 0.07,
+      "price": 0.01,
+      "spread": 0.06,
+      "volume": 2.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 90-91°F on May 20?",
+      "market_id": "2289658",
+      "gamma_market_id": "2289658",
+      "yes_token_id": "29336402949178013672104208585205245369047885074323652746991381788194172126018",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.01,
+      "ask": 0.07,
+      "price": 0.01,
+      "spread": 0.06,
+      "volume": 7.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Dallas be 92°F or higher on May 20?",
+      "market_id": "2289659",
+      "gamma_market_id": "2289659",
+      "yes_token_id": "98603352876580297336997762612994637232368565259665815720472440779827441718292",
+      "range": [
+        92.0,
+        999.0
+      ],
+      "bid": 0.01,
+      "ask": 0.04,
+      "price": 0.01,
+      "spread": 0.03,
+      "volume": 7.0,
+      "quote_source": "gamma_best_bid_ask"
+    }
+  ],
+  "created_at": "2026-05-18T13:53:19.006362+00:00"
+}

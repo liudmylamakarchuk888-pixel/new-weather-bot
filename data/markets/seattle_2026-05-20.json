@@ -1,0 +1,227 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-05-20",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.1,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T13:53:40.547193+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf_raw": 64,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 64,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": null,
+      "us_short_bias": 0.0,
+      "us_short": null,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 64,
+      "best_bias": 0.0,
+      "best": 64,
+      "best_source": "ecmwf",
+      "gfs_raw": null,
+      "gfs_bias": 0.0,
+      "gfs": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T13:53:40.547193+00:00",
+      "top_bucket": "68.0-999.0F",
+      "top_bid": 0.24,
+      "top_ask": 0.5,
+      "top_price": 0.24
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 49°F or below on May 20?",
+      "market_id": "2289627",
+      "gamma_market_id": "2289627",
+      "yes_token_id": "87948277732807729833470210522698289757057127313662628623289193217642090325148",
+      "range": [
+        -999.0,
+        49.0
+      ],
+      "bid": 0.006,
+      "ask": 0.018,
+      "price": 0.006,
+      "spread": 0.012,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 50-51°F on May 20?",
+      "market_id": "2289628",
+      "gamma_market_id": "2289628",
+      "yes_token_id": "32660644017551425619780561601317127412492790999601717940048356450289262180593",
+      "range": [
+        50.0,
+        51.0
+      ],
+      "bid": 0.006,
+      "ask": 0.01,
+      "price": 0.006,
+      "spread": 0.004,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 52-53°F on May 20?",
+      "market_id": "2289629",
+      "gamma_market_id": "2289629",
+      "yes_token_id": "28348424086969934090326910147621891842591222731786161073285999568596818447608",
+      "range": [
+        52.0,
+        53.0
+      ],
+      "bid": 0.006,
+      "ask": 0.01,
+      "price": 0.006,
+      "spread": 0.004,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 54-55°F on May 20?",
+      "market_id": "2289630",
+      "gamma_market_id": "2289630",
+      "yes_token_id": "31744292058081110747425854344409056258700960823591525489334699247416905951806",
+      "range": [
+        54.0,
+        55.0
+      ],
+      "bid": 0.011,
+      "ask": 0.05,
+      "price": 0.011,
+      "spread": 0.039,
+      "volume": 20.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 56-57°F on May 20?",
+      "market_id": "2289631",
+      "gamma_market_id": "2289631",
+      "yes_token_id": "113024297351008460323260630290992143486722872212441297134289253399642120415393",
+      "range": [
+        56.0,
+        57.0
+      ],
+      "bid": 0.012,
+      "ask": 0.08,
+      "price": 0.012,
+      "spread": 0.068,
+      "volume": 20.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 58-59°F on May 20?",
+      "market_id": "2289632",
+      "gamma_market_id": "2289632",
+      "yes_token_id": "90775238918711310352304360128040974582971928737133526338765824716019124006829",
+      "range": [
+        58.0,
+        59.0
+      ],
+      "bid": 0.01,
+      "ask": 0.07,
+      "price": 0.01,
+      "spread": 0.06,
+      "volume": 25.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 60-61°F on May 20?",
+      "market_id": "2289633",
+      "gamma_market_id": "2289633",
+      "yes_token_id": "98850968564249173209825606118912495820935700505507066748760524695789003557363",
+      "range": [
+        60.0,
+        61.0
+      ],
+      "bid": 0.02,
+      "ask": 0.07,
+      "price": 0.02,
+      "spread": 0.05,
+      "volume": 1.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 62-63°F on May 20?",
+      "market_id": "2289634",
+      "gamma_market_id": "2289634",
+      "yes_token_id": "51122590032257982999417677457362697400322704744912861804382858688428627025906",
+      "range": [
+        62.0,
+        63.0
+      ],
+      "bid": 0.04,
+      "ask": 0.07,
+      "price": 0.04,
+      "spread": 0.03,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 64-65°F on May 20?",
+      "market_id": "2289635",
+      "gamma_market_id": "2289635",
+      "yes_token_id": "32565802670113400437869116395092464740240542893869294694698720037973989081350",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "bid": 0.02,
+      "ask": 0.38,
+      "price": 0.02,
+      "spread": 0.36,
+      "volume": 25.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 66-67°F on May 20?",
+      "market_id": "2289636",
+      "gamma_market_id": "2289636",
+      "yes_token_id": "108179286605908239480629590759097398099584481645382619257450311272969400329316",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "bid": 0.04,
+      "ask": 0.38,
+      "price": 0.04,
+      "spread": 0.34,
+      "volume": 25.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 68°F or higher on May 20?",
+      "market_id": "2289637",
+      "gamma_market_id": "2289637",
+      "yes_token_id": "65829098172056014851236661749186693923565218030109057246640136324212379569116",
+      "range": [
+        68.0,
+        999.0
+      ],
+      "bid": 0.24,
+      "ask": 0.5,
+      "price": 0.24,
+      "spread": 0.26,
+      "volume": 45.0,
+      "quote_source": "gamma_best_bid_ask"
+    }
+  ],
+  "created_at": "2026-05-18T13:53:54.962135+00:00"
+}
