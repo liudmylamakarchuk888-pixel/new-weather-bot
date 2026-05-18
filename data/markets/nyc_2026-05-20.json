@@ -1,0 +1,227 @@
+{
+  "city": "nyc",
+  "city_name": "New York City",
+  "date": "2026-05-20",
+  "unit": "F",
+  "station": "KLGA",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.1,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T13:51:22.790110+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf_raw": 97,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 97,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": 95,
+      "us_short_bias": 0.0,
+      "us_short": 95,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 95,
+      "best_bias": 0.0,
+      "best": 95,
+      "best_source": "gfs",
+      "gfs_raw": 95,
+      "gfs_bias": 0.0,
+      "gfs": 95
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T13:51:22.790110+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_bid": 0.08,
+      "top_ask": 0.47,
+      "top_price": 0.08
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in New York City be 85°F or below on May 20?",
+      "market_id": "2289638",
+      "gamma_market_id": "2289638",
+      "yes_token_id": "115149953372422029651655251242624359244431032602782341924966348186251028864139",
+      "range": [
+        -999.0,
+        85.0
+      ],
+      "bid": 0.01,
+      "ask": 0.28,
+      "price": 0.01,
+      "spread": 0.27,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 86-87°F on May 20?",
+      "market_id": "2289639",
+      "gamma_market_id": "2289639",
+      "yes_token_id": "78047099507643683123244203348409338512630256060181571509479479456762910775821",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.01,
+      "ask": 0.26,
+      "price": 0.01,
+      "spread": 0.25,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 88-89°F on May 20?",
+      "market_id": "2289640",
+      "gamma_market_id": "2289640",
+      "yes_token_id": "28977462789887021742939915673723012777117162829176645545060214987022521085813",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.02,
+      "ask": 0.33,
+      "price": 0.02,
+      "spread": 0.31,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 90-91°F on May 20?",
+      "market_id": "2289641",
+      "gamma_market_id": "2289641",
+      "yes_token_id": "13856055741908903186048604446303386929246850510425503388685281775258879333606",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.08,
+      "ask": 0.47,
+      "price": 0.08,
+      "spread": 0.39,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 92-93°F on May 20?",
+      "market_id": "2289642",
+      "gamma_market_id": "2289642",
+      "yes_token_id": "9506973182216025903173572260825578014367188503983205575085449782518375915893",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "bid": 0.08,
+      "ask": 0.48,
+      "price": 0.08,
+      "spread": 0.4,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 94-95°F on May 20?",
+      "market_id": "2289643",
+      "gamma_market_id": "2289643",
+      "yes_token_id": "97591647643524982417634730194697119731784526215548819914742770067621496322973",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "bid": 0.07,
+      "ask": 0.45,
+      "price": 0.07,
+      "spread": 0.38,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 96-97°F on May 20?",
+      "market_id": "2289644",
+      "gamma_market_id": "2289644",
+      "yes_token_id": "88163932473981461967759725001753301209979392730078478760648761567403335714059",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "bid": 0.01,
+      "ask": 0.33,
+      "price": 0.01,
+      "spread": 0.32,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 98-99°F on May 20?",
+      "market_id": "2289645",
+      "gamma_market_id": "2289645",
+      "yes_token_id": "53551474642328956901600587913825991982688590514185360538859968553034320370598",
+      "range": [
+        98.0,
+        99.0
+      ],
+      "bid": 0.01,
+      "ask": 0.29,
+      "price": 0.01,
+      "spread": 0.28,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 100-101°F on May 20?",
+      "market_id": "2289646",
+      "gamma_market_id": "2289646",
+      "yes_token_id": "114599312013319463268101106130749584219210030815881989749762118678418841446551",
+      "range": [
+        100.0,
+        101.0
+      ],
+      "bid": 0.01,
+      "ask": 0.05,
+      "price": 0.01,
+      "spread": 0.04,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 102-103°F on May 20?",
+      "market_id": "2289647",
+      "gamma_market_id": "2289647",
+      "yes_token_id": "74788005178686405932566600895836322120184722739090772032201529883103407862346",
+      "range": [
+        102.0,
+        103.0
+      ],
+      "bid": 0.01,
+      "ask": 0.04,
+      "price": 0.01,
+      "spread": 0.03,
+      "volume": 7.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in New York City be 104°F or higher on May 20?",
+      "market_id": "2289648",
+      "gamma_market_id": "2289648",
+      "yes_token_id": "71268797933847967952737340589035759388238395010860935518173468426523723195850",
+      "range": [
+        104.0,
+        999.0
+      ],
+      "bid": 0.001,
+      "ask": 0.009,
+      "price": 0.001,
+      "spread": 0.008,
+      "volume": 125.0,
+      "quote_source": "gamma_best_bid_ask"
+    }
+  ],
+  "created_at": "2026-05-18T13:51:35.502347+00:00"
+}

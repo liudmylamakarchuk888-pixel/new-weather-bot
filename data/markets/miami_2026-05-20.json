@@ -1,0 +1,227 @@
+{
+  "city": "miami",
+  "city_name": "Miami",
+  "date": "2026-05-20",
+  "unit": "F",
+  "station": "KMIA",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.1,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T13:52:32.321374+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf_raw": 82,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 82,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": 87,
+      "us_short_bias": 0.0,
+      "us_short": 87,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 87,
+      "best_bias": 0.0,
+      "best": 87,
+      "best_source": "gfs",
+      "gfs_raw": 87,
+      "gfs_bias": 0.0,
+      "gfs": 87
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T13:52:32.321374+00:00",
+      "top_bucket": "86.0-87.0F",
+      "top_bid": 0.29,
+      "top_ask": 0.44,
+      "top_price": 0.29
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Miami be 77°F or below on May 20?",
+      "market_id": "2289671",
+      "gamma_market_id": "2289671",
+      "yes_token_id": "55042033229616855266086238223577001836430822972638767575997407648485777936258",
+      "range": [
+        -999.0,
+        77.0
+      ],
+      "bid": 0.01,
+      "ask": 0.019,
+      "price": 0.01,
+      "spread": 0.009,
+      "volume": 7.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 78-79°F on May 20?",
+      "market_id": "2289672",
+      "gamma_market_id": "2289672",
+      "yes_token_id": "56540123764924019971241839083521910213443954075990256633007253465849319140143",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.01,
+      "ask": 0.03,
+      "price": 0.01,
+      "spread": 0.02,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 80-81°F on May 20?",
+      "market_id": "2289673",
+      "gamma_market_id": "2289673",
+      "yes_token_id": "82065989181263426900000945551680036169524226836263694682957155793725857570757",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.01,
+      "ask": 0.04,
+      "price": 0.01,
+      "spread": 0.03,
+      "volume": 2.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 82-83°F on May 20?",
+      "market_id": "2289674",
+      "gamma_market_id": "2289674",
+      "yes_token_id": "25816536592387482293833719324341916058575243940465417810675827951415188749669",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.01,
+      "ask": 0.08,
+      "price": 0.01,
+      "spread": 0.07,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 84-85°F on May 20?",
+      "market_id": "2289675",
+      "gamma_market_id": "2289675",
+      "yes_token_id": "26499443421043279383309942224280738874476467905121653604130481000205060986036",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.02,
+      "ask": 0.33,
+      "price": 0.02,
+      "spread": 0.31,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 86-87°F on May 20?",
+      "market_id": "2289676",
+      "gamma_market_id": "2289676",
+      "yes_token_id": "58745316213843202478397148706937143698873935431655230520077966427354596741154",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.29,
+      "ask": 0.44,
+      "price": 0.29,
+      "spread": 0.15,
+      "volume": 30.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 88-89°F on May 20?",
+      "market_id": "2289677",
+      "gamma_market_id": "2289677",
+      "yes_token_id": "57566401556019402717238885018224215823759927753773262742379213321520594287478",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.24,
+      "ask": 0.29,
+      "price": 0.24,
+      "spread": 0.05,
+      "volume": 11.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 90-91°F on May 20?",
+      "market_id": "2289678",
+      "gamma_market_id": "2289678",
+      "yes_token_id": "74370004947147745503324570766290555871643807556059914081515595822981921627580",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.06,
+      "ask": 0.1,
+      "price": 0.06,
+      "spread": 0.04,
+      "volume": 0.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 92-93°F on May 20?",
+      "market_id": "2289679",
+      "gamma_market_id": "2289679",
+      "yes_token_id": "115294725298786221595344133490247085551247543306118349844437154336966455711686",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "bid": 0.01,
+      "ask": 0.07,
+      "price": 0.01,
+      "spread": 0.06,
+      "volume": 2.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 94-95°F on May 20?",
+      "market_id": "2289680",
+      "gamma_market_id": "2289680",
+      "yes_token_id": "40364768854333220250781027406354444050016343799084998089994290549777468727820",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "bid": 0.01,
+      "ask": 0.04,
+      "price": 0.01,
+      "spread": 0.03,
+      "volume": 2.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Miami be 96°F or higher on May 20?",
+      "market_id": "2289681",
+      "gamma_market_id": "2289681",
+      "yes_token_id": "78322284563165357268624875528982258146097270096601623683048746351478074896604",
+      "range": [
+        96.0,
+        999.0
+      ],
+      "bid": 0.01,
+      "ask": 0.049,
+      "price": 0.01,
+      "spread": 0.039,
+      "volume": 2.0,
+      "quote_source": "gamma_best_bid_ask"
+    }
+  ],
+  "created_at": "2026-05-18T13:52:45.102704+00:00"
+}

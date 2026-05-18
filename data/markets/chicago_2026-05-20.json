@@ -1,0 +1,227 @@
+{
+  "city": "chicago",
+  "city_name": "Chicago",
+  "date": "2026-05-20",
+  "unit": "F",
+  "station": "KORD",
+  "event_end_date": "2026-05-20T12:00:00Z",
+  "hours_at_discovery": 46.1,
+  "status": "open",
+  "position": null,
+  "actual_temp": null,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-05-18T13:51:56.844547+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf_raw": 59,
+      "ecmwf_bias": 0.0,
+      "ecmwf": 59,
+      "us_short_source": "gfs",
+      "us_short_model": "gfs_seamless",
+      "us_short_raw": null,
+      "us_short_bias": 0.0,
+      "us_short": null,
+      "metar_raw": null,
+      "metar_bias": 0.0,
+      "metar": null,
+      "best_raw": 59,
+      "best_bias": 0.0,
+      "best": 59,
+      "best_source": "ecmwf",
+      "gfs_raw": null,
+      "gfs_bias": 0.0,
+      "gfs": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-05-18T13:51:56.844547+00:00",
+      "top_bucket": "-999.0-71.0F",
+      "top_bid": 0.7,
+      "top_ask": 0.81,
+      "top_price": 0.7
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chicago be 71°F or below on May 20?",
+      "market_id": "2289682",
+      "gamma_market_id": "2289682",
+      "yes_token_id": "110647232205576777267017063886355493873089643154495184517028683389621692229614",
+      "range": [
+        -999.0,
+        71.0
+      ],
+      "bid": 0.7,
+      "ask": 0.81,
+      "price": 0.7,
+      "spread": 0.11,
+      "volume": 44.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 72-73°F on May 20?",
+      "market_id": "2289683",
+      "gamma_market_id": "2289683",
+      "yes_token_id": "27067771553388207768003328884794630096392209519297756529630604591332631003300",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "bid": 0.01,
+      "ask": 0.02,
+      "price": 0.01,
+      "spread": 0.01,
+      "volume": 2.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 74-75°F on May 20?",
+      "market_id": "2289684",
+      "gamma_market_id": "2289684",
+      "yes_token_id": "91332076576312234177054242884558315682099579243278428542281658765245610933591",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "bid": 0.001,
+      "ask": 0.01,
+      "price": 0.001,
+      "spread": 0.009,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 76-77°F on May 20?",
+      "market_id": "2289685",
+      "gamma_market_id": "2289685",
+      "yes_token_id": "91786098542279233980415073413019115405909085279567595792951045060273506447164",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.002,
+      "ask": 0.01,
+      "price": 0.002,
+      "spread": 0.008,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 78-79°F on May 20?",
+      "market_id": "2289686",
+      "gamma_market_id": "2289686",
+      "yes_token_id": "78362841293309145941998352809056916343883055101422143995058860114613057401406",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.001,
+      "ask": 0.009,
+      "price": 0.001,
+      "spread": 0.008,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 80-81°F on May 20?",
+      "market_id": "2289687",
+      "gamma_market_id": "2289687",
+      "yes_token_id": "53062025950327497264044537589086875079940446580585916987719977408803423021573",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.001,
+      "ask": 0.01,
+      "price": 0.001,
+      "spread": 0.009,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 82-83°F on May 20?",
+      "market_id": "2289688",
+      "gamma_market_id": "2289688",
+      "yes_token_id": "21717816184661469701262276029406360517128581013525288157132218384605622191684",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.001,
+      "ask": 0.01,
+      "price": 0.001,
+      "spread": 0.009,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 84-85°F on May 20?",
+      "market_id": "2289689",
+      "gamma_market_id": "2289689",
+      "yes_token_id": "5556747796432096016313643036009939378171256870735578185272331735513702525594",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.002,
+      "ask": 0.01,
+      "price": 0.002,
+      "spread": 0.008,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 86-87°F on May 20?",
+      "market_id": "2289690",
+      "gamma_market_id": "2289690",
+      "yes_token_id": "35696634416522803459457414750742409476997047071927901684396702843020621425918",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.001,
+      "ask": 0.01,
+      "price": 0.001,
+      "spread": 0.009,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 88-89°F on May 20?",
+      "market_id": "2289691",
+      "gamma_market_id": "2289691",
+      "yes_token_id": "114920068784722333160891077531717406161374871487564040157739753382257531449759",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.001,
+      "ask": 0.01,
+      "price": 0.001,
+      "spread": 0.009,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    },
+    {
+      "question": "Will the highest temperature in Chicago be 90°F or higher on May 20?",
+      "market_id": "2289692",
+      "gamma_market_id": "2289692",
+      "yes_token_id": "68242047092169171286282485815068304405350232946189923009165288473570720590006",
+      "range": [
+        90.0,
+        999.0
+      ],
+      "bid": 0.001,
+      "ask": 0.009,
+      "price": 0.001,
+      "spread": 0.008,
+      "volume": 10.0,
+      "quote_source": "gamma_best_bid_ask"
+    }
+  ],
+  "created_at": "2026-05-18T13:52:10.853296+00:00"
+}
